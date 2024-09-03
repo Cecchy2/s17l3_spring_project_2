@@ -1,8 +1,15 @@
 package dariocecchinato.s17l3_spring_project_2.entities;
 
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter
+@Setter
+@Component
 public class Menu {
     private final List<MenuData> datas;
 
@@ -12,9 +19,6 @@ public class Menu {
 
     public void addData(MenuData data){
         this.datas.add(data);
-    }
-    public List<MenuData> getDatas() {
-        return datas;
     }
 
 
