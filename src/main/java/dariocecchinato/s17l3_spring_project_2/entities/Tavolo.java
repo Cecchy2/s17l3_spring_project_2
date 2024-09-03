@@ -1,9 +1,13 @@
 package dariocecchinato.s17l3_spring_project_2.entities;
 
 import dariocecchinato.s17l3_spring_project_2.Enum.Stato;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 
 
+@Getter
+@Setter
 
 public class Tavolo {
 
@@ -17,5 +21,14 @@ public class Tavolo {
         this.numeroTavolo = numeroTavolo;
         this.numeroCopertiMax = numeroCopertiMax;
         this.stato = stato;
+    }
+
+    @Override
+    public String toString() {
+        return "Tavolo{" +
+                "numeroTavolo=" + numeroTavolo +
+                ", numeroCopertiMax=" + numeroCopertiMax +
+                ", stato=" + stato +
+                '}';
     }
 }

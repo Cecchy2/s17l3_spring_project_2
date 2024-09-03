@@ -8,6 +8,7 @@ public class S17l3SpringProject2Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(S17l3SpringProject2Application.class, args);
+
 	}
 
 }

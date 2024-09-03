@@ -1,9 +1,6 @@
 package dariocecchinato.s17l3_spring_project_2;
 
-import dariocecchinato.s17l3_spring_project_2.entities.Bevanda;
-import dariocecchinato.s17l3_spring_project_2.entities.Menu;
-import dariocecchinato.s17l3_spring_project_2.entities.Pizza;
-import dariocecchinato.s17l3_spring_project_2.entities.Topping;
+import dariocecchinato.s17l3_spring_project_2.entities.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

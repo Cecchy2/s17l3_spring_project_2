@@ -1,12 +1,17 @@
 package dariocecchinato.s17l3_spring_project_2.entities;
 
 import dariocecchinato.s17l3_spring_project_2.Enum.StatoOrdine;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 
 import java.time.LocalDate;
 import java.util.List;
 
-
+@Getter
+@Setter
+@PropertySource("application.properties")
 public class Ordine {
     private final Tavolo tavolo;
     private final List<MenuData> datas;
@@ -49,4 +54,6 @@ public class Ordine {
                 ", importoTotale=" + importoTotale +
                 '}';
     }
+
+
 }
