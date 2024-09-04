@@ -1,6 +1,6 @@
-package dariocecchinato.s17l2_spring_project_2.entities;
+package dariocecchinato.s17l3_spring_project_2.entities;
 
-import dariocecchinato.s17l2_spring_project_2.Enum.Stato;
+import dariocecchinato.s17l3_spring_project_2.Enum.Stato;
 import lombok.Getter;
 import lombok.Setter;
 

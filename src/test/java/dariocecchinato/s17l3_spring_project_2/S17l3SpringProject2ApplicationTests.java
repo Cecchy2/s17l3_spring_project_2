@@ -1,4 +1,4 @@
-package dariocecchinato.s17l2_spring_project_2;
+package dariocecchinato.s17l3_spring_project_2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

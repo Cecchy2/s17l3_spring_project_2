@@ -1,11 +1,11 @@
-package dariocecchinato.s17l2_spring_project_2;
+package dariocecchinato.s17l3_spring_project_2;
 
-import dariocecchinato.s17l2_spring_project_2.Enum.Stato;
-import dariocecchinato.s17l2_spring_project_2.Enum.StatoOrdine;
-import dariocecchinato.s17l2_spring_project_2.entities.Menu;
-import dariocecchinato.s17l2_spring_project_2.entities.MenuData;
-import dariocecchinato.s17l2_spring_project_2.entities.Ordine;
-import dariocecchinato.s17l2_spring_project_2.entities.Tavolo;
+import dariocecchinato.s17l3_spring_project_2.Enum.Stato;
+import dariocecchinato.s17l3_spring_project_2.Enum.StatoOrdine;
+import dariocecchinato.s17l3_spring_project_2.entities.Menu;
+import dariocecchinato.s17l3_spring_project_2.entities.MenuData;
+import dariocecchinato.s17l3_spring_project_2.entities.Ordine;
+import dariocecchinato.s17l3_spring_project_2.entities.Tavolo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
