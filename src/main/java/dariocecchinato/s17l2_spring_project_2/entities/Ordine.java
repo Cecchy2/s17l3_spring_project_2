@@ -1,6 +1,6 @@
-package dariocecchinato.s17l3_spring_project_2.entities;
+package dariocecchinato.s17l2_spring_project_2.entities;
 
-import dariocecchinato.s17l3_spring_project_2.Enum.StatoOrdine;
+import dariocecchinato.s17l2_spring_project_2.Enum.StatoOrdine;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Value;
@@ -46,12 +46,12 @@ public class Ordine {
     public String toString() {
         return "Ordine{" +
                 "tavolo=" + tavolo +
-                ", datas=" + datas +
                 ", numeroOrdine=" + numeroOrdine +
                 ", statoOrdine=" + statoOrdine +
                 ", numeroCoperti=" + numeroCoperti +
                 ", oraAcquisiziope=" + oraAcquisizione +
                 ", importoTotale=" + importoTotale +
+                " Pizze : " + datas +
                 '}';
     }
 
